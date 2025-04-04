@@ -27,8 +27,8 @@ Material:
     m_Floats:
     - _Float0: 1
     - _Float1: 2
-    - _Frequency: 4
-    - _TimeScale: 0.1
+    - _Frequency: 9.8
+    - _TimeScale: 0.8
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0.9248905, a: 0}
