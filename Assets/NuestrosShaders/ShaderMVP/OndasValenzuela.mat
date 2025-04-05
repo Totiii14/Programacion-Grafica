@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.21
+    - _Amplitude: 2.1
     - _Frequency: 5.25
     - _Speed: 17.78
     - __dirty: 0
