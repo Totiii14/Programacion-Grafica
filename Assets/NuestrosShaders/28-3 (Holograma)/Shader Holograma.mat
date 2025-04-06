@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Bola
+  m_Name: Shader Holograma
   m_Shader: {fileID: 4800000, guid: 71d4f75acc380c74abd6c8090879772c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

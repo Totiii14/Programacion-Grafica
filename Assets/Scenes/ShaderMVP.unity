@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 458977725}
   - component: {fileID: 458977724}
   m_Layer: 0
-  m_Name: Agua
+  m_Name: Agua Fresnel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -656,7 +656,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2123800698039258471, guid: 679fb822174e3b64590416613d18d6d8, type: 3}
       propertyPath: m_Name
-      value: Cubo (1)
+      value: holograma
       objectReference: {fileID: 0}
     - target: {fileID: 2289078261165935530, guid: 679fb822174e3b64590416613d18d6d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 2077880767}
   - component: {fileID: 2077880766}
   m_Layer: 0
-  m_Name: er
+  m_Name: pared fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 2122637451}
   - component: {fileID: 2122637450}
   m_Layer: 0
-  m_Name: Cubo
+  m_Name: Spawn Holograma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
