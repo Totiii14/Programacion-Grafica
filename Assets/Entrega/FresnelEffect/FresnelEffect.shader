@@ -58,9 +58,8 @@ Shader "FresnelEffect"
 			float3 ase_worldNormal = WorldNormalVector( i, float3( 0, 0, 1 ) );
 			float fresnelNdotV5 = dot( ase_worldNormal, ase_worldViewDir );
 			float fresnelNode5 = ( 0.0 + _XRayScale * pow( 1.0 - fresnelNdotV5, _XRayPower ) );
-			float temp_output_17_0 = sin( ( _Time.y * 3.0 ) );
 			o.Emission = ( fresnelNode5 * _XRayColor ).rgb;
-			o.Alpha = ( fresnelNode5 * _XRayColor.a * temp_output_17_0 );
+			o.Alpha = ( fresnelNode5 * _XRayColor.a * sin( ( _Time.y * 3.0 ) ) );
 			o.Normal = float3(0,0,-1);
 		}
 		ENDCG
@@ -102,7 +101,7 @@ Shader "FresnelEffect"
 }
 /*ASEBEGIN
 Version=18900
-207;81;928;611;924.9857;393.0191;1.626039;False;False
+361;73;555;540;1055.538;300.3512;1.3;False;False
 Node;AmplifyShaderEditor.RangedFloatNode;14;-1100.609,537.3553;Inherit;False;Constant;_Speed2;Speed2;4;0;Create;True;0;0;0;False;0;False;3;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;16;-1102.562,452.5619;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;15;-921.5567,479.9406;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -131,4 +130,4 @@ WireConnection;11;2;8;0
 WireConnection;0;0;10;0
 WireConnection;0;11;11;0
 ASEEND*/
-//CHKSM=F0BD4B4C4A89E188BADFEE875E2B79547BF62912
+//CHKSM=E76ED8E53A44D3309DA7FDFCEA56E507BB987522

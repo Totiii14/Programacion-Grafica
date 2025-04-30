@@ -43,7 +43,7 @@ Material:
     - _Frequency1: 4.99
     - _FresnelPow: 2
     - _FresnelScale: 1.2
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color0: {r: 0.39876264, g: 0.9716981, b: 0.93739533, a: 0}
     - _Color1: {r: 0.992706, g: 1, b: 0.6462264, a: 0}
