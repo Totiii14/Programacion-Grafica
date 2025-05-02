@@ -39,7 +39,7 @@ Material:
     m_Floats:
     - _Float0: 0.84
     - _Float1: 0.04
-    - _Height: 0.04
+    - _Height: 0.013941973
     - _Tessellation: 0.79
     - __dirty: 0
     m_Colors:

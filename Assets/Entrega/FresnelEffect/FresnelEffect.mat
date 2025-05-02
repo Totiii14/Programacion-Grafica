@@ -37,9 +37,9 @@ Material:
     - _Speed2: 2
     - _XRayBias: 0
     - _XRayIntensity: 1.5
-    - _XRayPower: 1.7943752
-    - _XRayScale: 2.0315897
-    - __dirty: 1
+    - _XRayPower: 1.950723
+    - _XRayScale: 2.1358218
+    - __dirty: 0
     m_Colors:
     - _XRayColor: {r: 1, g: 0.019996135, b: 0, a: 1}
   m_BuildTextureStacks: []

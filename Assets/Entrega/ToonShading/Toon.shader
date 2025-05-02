@@ -207,20 +207,20 @@ Shader "Toon"
 }
 /*ASEBEGIN
 Version=18900
-216;73;918;658;1972.903;646.9966;1.677033;True;True
+147;512;1904;741;1364.51;-382.6555;1.27405;False;False
 Node;AmplifyShaderEditor.CommentaryNode;15;-1396.996,561.5826;Inherit;False;1044.647;462.5661;Comment;5;10;11;12;13;14;Texture;1,1,1,1;0;0
 Node;AmplifyShaderEditor.SamplerNode;10;-1346.996,794.1491;Inherit;True;Property;_TextureSample0;Texture Sample 0;3;0;Create;True;0;0;0;False;0;False;-1;e9742c575b8f4644fb9379e7347ff62e;e9742c575b8f4644fb9379e7347ff62e;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.WorldNormalVector;11;-1000.242,803.2504;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.WorldSpaceLightDirHlpNode;12;-1042.341,611.5828;Inherit;False;False;1;0;FLOAT;0;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.CommentaryNode;22;-1403.692,-470.3249;Inherit;False;1350.644;922.4053;Comment;15;4;18;16;6;2;1;7;21;17;19;20;3;8;9;5;Steps;1,1,1,1;0;0
 Node;AmplifyShaderEditor.DotProductOpNode;13;-740.238,725.8368;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RegisterLocalVarNode;14;-598.1501,715.6077;Inherit;False;LightDotProduct;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;2;-1338.49,-124.6399;Inherit;False;Property;_ShadowForceStep2;ShadowForceStep2;1;0;Create;False;0;0;0;False;0;False;1;0.407;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;14;-608.1501,721.6077;Inherit;False;LightDotProduct;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;3;-1353.692,155.7922;Inherit;False;Property;_ShadowForceStep3;ShadowForceStep3;2;0;Create;False;0;0;0;False;0;False;1;0.503;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;1;-1329.323,-420.3249;Inherit;False;Property;_ShadowForceStep1;ShadowForceStep1;0;0;Create;False;0;0;0;False;0;False;1;0.862;0;1;0;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;2;-1338.49,-124.6399;Inherit;False;Property;_ShadowForceStep2;ShadowForceStep2;1;0;Create;False;0;0;0;False;0;False;1;0.407;0;1;0;1;FLOAT;0
-Node;AmplifyShaderEditor.TFHCRemapNode;4;-1040,-416;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.GetLocalVarNode;6;-1063.469,-246.0798;Inherit;False;14;LightDotProduct;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.GetLocalVarNode;17;-1069.89,44.36608;Inherit;False;14;LightDotProduct;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;6;-1063.469,-246.0798;Inherit;False;14;LightDotProduct;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;4;-1040,-416;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.GetLocalVarNode;20;-1067.198,336.9204;Inherit;False;14;LightDotProduct;1;0;OBJECT;;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCRemapNode;16;-1047.647,-119.2995;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCRemapNode;19;-1051.341,161.3815;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
@@ -262,4 +262,4 @@ WireConnection;26;1;27;0
 WireConnection;28;0;26;0
 WireConnection;0;13;28;0
 ASEEND*/
-//CHKSM=F62A88868C3C9595373CD84A73C6DB5F3ABD2444
+//CHKSM=B7B9143BF63BBD6D6C86B635AC15AC8E318E2836
