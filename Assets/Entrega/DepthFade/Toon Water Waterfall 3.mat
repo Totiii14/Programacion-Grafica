@@ -30,7 +30,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Bias: 1
-    - _FlowSpeed: 1.1
+    - _FlowSpeed: 0.7003864
     - _FlowTextureZoom: 0.2
     - _Power: 10
     - _Scale: 0.07

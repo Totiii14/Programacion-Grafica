@@ -35,10 +35,10 @@ Material:
     m_Floats:
     - _EdgeLength: 15
     - _Float0: 0.1
-    - _Height: 0.1
+    - _Height: 0.8807308
     - _TessValue: 32
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 0.002269496, g: 0.4811321, b: 0.0673726, a: 0}
+    - _Color0: {r: 0.002269496, g: 0.4811321, b: 0.067372546, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -34,11 +34,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _ASEOutlineWidth: 0
+    - _Speed2: 2
     - _XRayBias: 0
     - _XRayIntensity: 1.5
-    - _XRayPower: 1.63
-    - _XRayScale: 3.43
-    - __dirty: 0
+    - _XRayPower: 1.7943752
+    - _XRayScale: 2.0315897
+    - __dirty: 1
     m_Colors:
     - _XRayColor: {r: 1, g: 0.019996135, b: 0, a: 1}
   m_BuildTextureStacks: []

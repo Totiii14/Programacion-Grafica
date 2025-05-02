@@ -38,13 +38,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Bias: 1
-    - _Power: 6.19
-    - _Scale: 0.84
-    - _TextureTiling: 1.1
-    - _WaterMoveSpeed: 1.1
+    - _Power: 5.25
+    - _Scale: 1.1266394
+    - _TextureTiling: 1.1260579
+    - _WaterMoveSpeed: 1.1260579
     - _WaveDistorssion: 0.628
     m_Colors:
     - _Color0: {r: 0.03137255, g: 0.0283464, b: 0.9647059, a: 0}
-    - _Vector0: {r: 0.44, g: 0.27, b: 0, a: 0}
+    - _Vector0: {r: 0.59309447, g: 0.2189686, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -4,5 +4,30 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Entrega/HeightMap/HeightMap.unity
+    guid: 958ad7feb608eef44a5385d1d3622b84
+  - enabled: 1
+    path: Assets/Entrega/Vertex/Vertex.unity
+    guid: e301e56a12fcf7146b1d188044875aa8
+  - enabled: 1
+    path: Assets/Entrega/FresnelEffect/FresnelEffect.unity
+    guid: 674f079e1fcfbc342883f7ad31607566
+  - enabled: 1
+    path: Assets/Entrega/ParallaxOcclusionMapping/ParallaxOcclusionMapping.unity
+    guid: ffc0fec6ad87c154095d4f3c5d0a0930
+  - enabled: 1
+    path: Assets/Entrega/Screen-WorldSpaceUV/Screen-WorldSpaceUV.unity
+    guid: bd59ce391bddd9545ac350e9662cb49c
+  - enabled: 1
+    path: Assets/Entrega/ToonShading/Toon.unity
+    guid: d8442c4b1dc53db43a0e1efc86d7271d
+  - enabled: 1
+    path: Assets/Entrega/DepthFade/DepthFade.unity
+    guid: f036d1488b5b00b4cad01f96e5b383db
+  - enabled: 1
+    path: Assets/Entrega/DissolveShader/DissolveShader.unity
+    guid: 7e2bfb420ade31546b00e08d0d4470d5
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

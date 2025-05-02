@@ -40,7 +40,7 @@ Material:
     - _Float0: 0.84
     - _Float1: 0.04
     - _Height: 0.04
-    - _Tessellation: 0.7963619
+    - _Tessellation: 0.79
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0.72156864, g: 0.8977615, b: 1, a: 0}

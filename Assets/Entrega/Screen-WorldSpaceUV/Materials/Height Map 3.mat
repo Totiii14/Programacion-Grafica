@@ -39,6 +39,6 @@ Material:
     - _TessValue: 32
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 0}
+    - _Color0: {r: 0.95283014, g: 0.95283014, b: 0.95283014, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
