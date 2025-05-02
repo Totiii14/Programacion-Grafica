@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterTexture:
-        m_Texture: {fileID: 2800000, guid: a7738dfa9a3f9e6479821a7fafe3636e, type: 3}
+        m_Texture: {fileID: 2800000, guid: efa2302ad859d1b48ba53c27fb1ff409, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -44,6 +44,7 @@ Material:
     - _WaterMoveSpeed: 1.1
     - _WaveDistorssion: 0.628
     m_Colors:
+    - _Color0: {r: 0.03137255, g: 0.0283464, b: 0.9647059, a: 0}
     - _Vector0: {r: 0.44, g: 0.27, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -3,7 +3,6 @@ guid: 544893159779c0b41b1c0ffe3cf6e07a
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _WaterTexture: {fileID: 2800000, guid: a7738dfa9a3f9e6479821a7fafe3636e, type: 3}
   - _Flowmap: {fileID: 2800000, guid: 28788f2dcdc613e4f88ba773b87c3bb7, type: 3}
   nonModifiableTextures: []
   userData: 
