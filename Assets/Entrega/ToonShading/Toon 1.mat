@@ -33,7 +33,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ASEOutlineWidth: 0.03
+    - _ASEOutlineWidth: 0.01
     - _ShadowForceStep1: 0.862
     - _ShadowForceStep2: 0.407
     - _ShadowForceStep3: 0.503
