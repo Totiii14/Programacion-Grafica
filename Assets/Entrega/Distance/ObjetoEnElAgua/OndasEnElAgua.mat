@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Distance
-  m_Shader: {fileID: 4800000, guid: 99e5eec4b71f4a74195e3addffead25b, type: 3}
+  m_Name: OndasEnElAgua
+  m_Shader: {fileID: 4800000, guid: a0a16dde825a7514c9307709d47033dc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,16 +25,21 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Altura: 0.1
+    - _Altura: 0.07
+    - _Altura1: 3.72
     - _EdgeLength: 2
-    - _Frecuencia: 4.85
+    - _Float0: 6.06
+    - _Frecuencia: 3.82
+    - _Frecuencia1: 5.59
+    - _Limit: 3.36
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 0.019296926, g: 0, b: 0.990566, a: 0}
+    - _Color0: {r: 0.2980392, g: 0.37174308, b: 1, a: 0}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
-    - _Deformacion: {r: 0, g: 4, b: 0, a: 0}
-    - _Epicentro: {r: 0, g: 0, b: 0, a: 0}
-    - _Epicentro1: {r: 0.12, g: 5.58, b: 1.1, a: 0}
-    - _Vector0: {r: -2.29, g: 5.58, b: 1.2, a: 0}
+    - _Color2: {r: 1, g: 0.11764706, b: 0.95924383, a: 0}
+    - _Deformacion: {r: 0, g: 5.05, b: 0, a: 0}
+    - _Deformacion1: {r: 0, g: 10, b: 0, a: 0}
+    - _Epicentro1: {r: -2.29, g: 5.58, b: 1.2, a: 0}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

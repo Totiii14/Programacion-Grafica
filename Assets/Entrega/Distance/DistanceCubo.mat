@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cubo
-  m_Shader: {fileID: 4800000, guid: 99e5eec4b71f4a74195e3addffead25b, type: 3}
+  m_Name: DistanceCubo
+  m_Shader: {fileID: 4800000, guid: 4c1d76b6eedc7c5488a0e2976111af39, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -22,30 +22,17 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: e9742c575b8f4644fb9379e7347ff62e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _ASEOutlineWidth: 0.01
-    - _Altura: 0.07
+    - _Altura: 0.53
     - _EdgeLength: 2
-    - _Frecuencia: 3.42
-    - _ShadowForceStep1: 1
-    - _ShadowForceStep2: 1
-    - _ShadowForceStep3: 1
+    - _Frecuencia: 1.88
     - __dirty: 0
     m_Colors:
-    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Color0: {r: 0, g: 0.16666645, b: 1, a: 0}
-    - _Color1: {r: 1, g: 1, b: 1, a: 0}
-    - _Deformacion: {r: 0, g: 4, b: 0, a: 0}
+    - _Color0: {r: 0.29716903, g: 1, b: 0.890738, a: 0}
+    - _Color1: {r: 1, g: 0.1176463, b: 0.95924383, a: 0}
+    - _Deformacion: {r: 0, g: 2.2, b: 0, a: 0}
     - _Epicentro: {r: 0, g: 0, b: 0, a: 0}
     - _Vector0: {r: -2.29, g: 5.58, b: 1.2, a: 0}
   m_BuildTextureStacks: []
