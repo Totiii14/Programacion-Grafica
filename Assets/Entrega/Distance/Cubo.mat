@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Distance
+  m_Name: Cubo
   m_Shader: {fileID: 4800000, guid: 99e5eec4b71f4a74195e3addffead25b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -30,10 +30,8 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0.2971698, g: 1, b: 0.890738, a: 0}
-    - _Color1: {r: 1, g: 0.1176471, b: 0.9592439, a: 0}
+    - _Color1: {r: 1, g: 0.1176471, b: 0.9592438, a: 0}
     - _Deformacion: {r: 0, g: 4, b: 0, a: 0}
     - _Epicentro: {r: 0, g: 0, b: 0, a: 0}
-    - _Epicentro1: {r: 0.12, g: 5.58, b: 1.1, a: 0}
-    - _Vector0: {r: -2.29, g: 5.58, b: 1.2, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
