@@ -50,7 +50,7 @@ Material:
     - _Float3: 1.5
     - _Speed: 1.3859742
     - _TopDissolve: 1.6058071
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _Color0: {r: 0, g: 0.945098, b: 0.56577975, a: 0}
   m_BuildTextureStacks: []
