@@ -6,24 +6,14 @@ public class CustomizationController : MonoBehaviour
 {
     public Camera cam;
     public CustomizationUI customizationUI;
+    CustomizableObject[] objects;
 
-    void Update()
+    private void Start()
     {
-        if (Input.GetMouseButtonDown(0))
+        objects = FindObjectsOfType<CustomizableObject>();
+        for (int i = 0; i < objects.Length; i++)
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hit))
-            {
-                CustomizableObject customizable = hit.collider.GetComponent<CustomizableObject>();
-                if (customizable != null)
-                {
-                    customizationUI.ShowSlidersForObject(customizable);
-                }
-                else
-                {
-                    customizationUI.Hide();
-                }
-            }
+            customizationUI.ShowSlidersForObject(objects[i]);
         }
     }
 }

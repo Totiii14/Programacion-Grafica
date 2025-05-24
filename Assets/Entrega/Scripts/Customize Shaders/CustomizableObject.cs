@@ -18,4 +18,9 @@ public class CustomizableObject : MonoBehaviour
     public Material material;
 
     public MaterialProperty[] properties;
+
+    private void OnRenderImage(RenderTexture source, RenderTexture destination)
+    {
+        Graphics.Blit(source, destination, material);
+    }
 }
