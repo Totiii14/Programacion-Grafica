@@ -38,8 +38,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Pixels: 0
-    - _PixelsX: 6.9
-    - _PixelsY: 13.4
+    - _PixelsX: 1
+    - _PixelsY: 1
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

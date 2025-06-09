@@ -110,7 +110,7 @@ Shader "PixelCamera"
 }
 /*ASEBEGIN
 Version=18900
-184;73;798;658;1280.986;437.2706;1.493997;True;False
+14;118;1904;376;1965.264;207.5893;1.78693;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;6;-791.1788,3.732991;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;8;-740.6974,208.2625;Inherit;False;Property;_PixelsY;Pixels Y;1;0;Create;True;0;0;0;False;0;False;200;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;7;-732.8627,123.9381;Inherit;False;Property;_PixelsX;Pixels X;0;0;Create;True;0;0;0;False;0;False;320;0;0;0;0;1;FLOAT;0
@@ -125,4 +125,4 @@ WireConnection;2;0;1;0
 WireConnection;2;1;3;0
 WireConnection;0;0;2;0
 ASEEND*/
-//CHKSM=D99025C341151CD0A2522ED24705D07358FEA0D2
+//CHKSM=B2D03FF02FB8582844CAD12F682434659038F545
