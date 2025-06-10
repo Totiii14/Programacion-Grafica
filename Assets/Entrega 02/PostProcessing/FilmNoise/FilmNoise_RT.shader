@@ -6,7 +6,7 @@ Shader "FilmNoise_RT"
 	{
 		_MainTex ( "Screen", 2D ) = "black" {}
 		_NoiseTex("_NoiseTex", 2D) = "white" {}
-		_NoiseScale("_NoiseScale", Range( 0 , 1)) = 0.8229017
+		_NoiseScale("NoiseScale", Range( 0 , 1)) = 0.8229017
 		_Speed("Speed", Float) = 0
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 
@@ -117,13 +117,13 @@ Shader "FilmNoise_RT"
 }
 /*ASEBEGIN
 Version=18900
-179;343;723;337;1784.574;325.4535;1.470065;False;False
+184;73;798;658;1848.724;484.0776;1.944745;True;False
 Node;AmplifyShaderEditor.ScreenPosInputsNode;9;-1567.203,-183.0668;Float;False;0;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ComponentMaskNode;10;-1187.231,-267.1049;Inherit;False;True;True;False;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SimpleTimeNode;15;-1044.249,151.7542;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;12;-1083.781,18.56233;Inherit;False;Property;_NoiseScale;_NoiseScale;1;0;Create;True;0;0;0;False;0;False;0.8229017;1;0;1;0;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;20;-1043.949,362.0339;Inherit;False;Property;_Speed;Speed;2;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;11;-954.4656,-126.0254;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.RangedFloatNode;12;-1083.781,18.56233;Inherit;False;Property;_NoiseScale;NoiseScale;1;0;Create;True;0;0;0;False;0;False;0.8229017;0.39;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;20;-1043.949,362.0339;Inherit;False;Property;_Speed;Speed;2;0;Create;True;0;0;0;False;0;False;0;1;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;19;-850.7867,261.9132;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;13;-795.6755,-83.55113;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;14;-642.9559,150.0898;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
@@ -147,4 +147,4 @@ WireConnection;18;0;6;0
 WireConnection;18;1;8;0
 WireConnection;29;0;18;0
 ASEEND*/
-//CHKSM=A05D1CC90F62A4B28A57CDC581ACD771729A437B
+//CHKSM=7A027AE47A28F5CD00BF1FBAAEB650E82484E855

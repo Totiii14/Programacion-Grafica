@@ -41,7 +41,7 @@ Material:
     - _Float0: 0
     - _Speed: 0
     - _Tilling: 0
-    - _VignetteControl: 0.798961
+    - _VignetteControl: 1
     m_Colors:
     - _PannerSpeed: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
