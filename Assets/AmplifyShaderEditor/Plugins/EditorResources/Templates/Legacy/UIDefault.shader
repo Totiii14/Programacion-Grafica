@@ -1,4 +1,4 @@
-Shader /*ase_name*/"Hidden/Templates/Legacy/UIDefault"/*end*/
+Shader /*ase_name*/"Hidden/Templates/Legacy/UI"/*end*/
 {
 	Properties
 	{
