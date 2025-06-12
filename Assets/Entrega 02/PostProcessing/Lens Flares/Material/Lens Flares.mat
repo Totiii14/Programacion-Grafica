@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bloom_PostShader
-  m_Shader: {fileID: 4800000, guid: 729b4a764c472214f84ea96cb354de31, type: 3}
+  m_Name: Lens Flares
+  m_Shader: {fileID: 4800000, guid: 11c769f5f21071549be266c2780f93ff, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -27,19 +27,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex2:
-        m_Texture: {fileID: 8400000, guid: d94d31337019e9142a88b694c3b1d142, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float0: 0.07
-    - _Float1: 4
+    - _FlareOffset: 0.20496316
+    - _Sensitivitylight: 1
     m_Colors:
-    - _Vector0: {r: 0.21, g: -0.11, b: 0.04, a: 0}
-    - _Vector1: {r: -1, g: -1, b: 0, a: 0}
-    - _Vector2: {r: 3.187368, g: -1, b: 0, a: 0}
-    - _Vector3: {r: 1.7541533, g: 4.14818, b: 0, a: 0}
-    - _Vector4: {r: -1, g: 5, b: 0, a: 0}
+    - _Intensity: {r: 1, g: 0, b: 0, a: 0}
+    - _LightPos: {r: 0.0709002, g: 1.3227513, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

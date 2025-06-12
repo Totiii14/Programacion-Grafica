@@ -41,9 +41,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BrightnessShift: 0.43428645
-    - _HueShift: 0.30642807
-    - _SaturationShift: 0.22571349
+    - _BrightnessShift: 0.37676805
+    - _HueShift: 0.3927057
+    - _SaturationShift: 0.42702785
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []

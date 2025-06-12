@@ -46,7 +46,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _NoiseScale: 0.59357166
-    - _Speed: 0.42999938
+    - _Speed: 0.18554616
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
