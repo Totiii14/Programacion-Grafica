@@ -42,7 +42,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BrightnessShift: 0.37676805
-    - _HueShift: 0.3927057
+    - _HueShift: 0.72343653
     - _SaturationShift: 0.42702785
     - __dirty: 0
     m_Colors: []

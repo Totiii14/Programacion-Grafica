@@ -30,7 +30,7 @@ Material:
     - _Frecuencia: 4.07
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 0.04278532, g: 0.02710041, b: 0.8207547, a: 0}
+    - _Color0: {r: 0.0427853, g: 0.02710041, b: 0.8207547, a: 0}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _Deformacion: {r: 0, g: 4, b: 0, a: 0}
     - _Epicentro: {r: 0, g: 0, b: 0, a: 0}

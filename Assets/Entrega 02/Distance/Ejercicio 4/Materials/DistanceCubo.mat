@@ -25,14 +25,14 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Altura: 0.05
+    - _Altura: 0.1
     - _EdgeLength: 2
     - _Frecuencia: 1.88
     - _Limit: 3147.18
     - __dirty: 0
     m_Colors:
-    - _Color0: {r: 0.29716888, g: 1, b: 0.890738, a: 0}
-    - _Color1: {r: 1, g: 0.117646135, b: 0.95924383, a: 0}
+    - _Color0: {r: 0.29716882, g: 1, b: 0.890738, a: 0}
+    - _Color1: {r: 1, g: 0.117646106, b: 0.95924383, a: 0}
     - _Deformacion: {r: 0, g: 2.2, b: 0, a: 0}
     - _Epicentro: {r: 0, g: 0, b: 0, a: 0}
     - _Vector0: {r: -2.29, g: 5.58, b: 1.2, a: 0}

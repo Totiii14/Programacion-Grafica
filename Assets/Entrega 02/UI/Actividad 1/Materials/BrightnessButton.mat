@@ -33,8 +33,8 @@ Material:
     - _Brightness: 2
     - _ColorMask: 15
     - _Min: 0.5
-    - _Sharpness: 2.38
-    - _Speed: 0.36414716
+    - _Sharpness: 2.3447058
+    - _Speed: 0.42771998
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0

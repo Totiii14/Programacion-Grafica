@@ -38,7 +38,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorMask: 15
-    - _Distortion: 0.6312408
+    - _Distortion: 0.62824804
     - _Float0: 0.66
     - _Stencil: 0
     - _StencilComp: 8
