@@ -6,55 +6,55 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Entrega 02/Distance/Ejercicio 1/Ejercicio 1.unity
+    path: Assets/Grupo_06/Distance/Ejercicio 1/Ejercicio 1.unity
     guid: 55a138ad1885d0a4c828ee3d4a634a24
   - enabled: 1
-    path: Assets/Entrega 02/Distance/Ejercicio 2/Ejercicio 2.unity
+    path: Assets/Grupo_06/Distance/Ejercicio 2/Ejercicio 2.unity
     guid: 0c02365a6f02b5d4bbfe13d603ac6af6
   - enabled: 1
-    path: Assets/Entrega 02/Distance/Ejercicio 3/Ejercicio 3.unity
+    path: Assets/Grupo_06/Distance/Ejercicio 3/Ejercicio 3.unity
     guid: d6296f6a469b33c4a8aa9b2fd48c1f48
   - enabled: 1
-    path: Assets/Entrega 02/Distance/Ejercicio 4/Ejercicio 4.unity
+    path: Assets/Grupo_06/Distance/Ejercicio 4/Ejercicio 4.unity
     guid: 611cafd9ce7ee6b42820cd8ac16e42d3
   - enabled: 1
-    path: Assets/Entrega 02/PostProcessing/GrayScale/GrayScale.unity
+    path: Assets/Grupo_06/PostProcessing/GrayScale/GrayScale.unity
     guid: 095a83b3e56f27c4d92e8489f911c656
   - enabled: 1
-    path: Assets/Entrega 02/PostProcessing/TSBC/TSBC.unity
+    path: Assets/Grupo_06/PostProcessing/TSBC/TSBC.unity
     guid: e5018efd2f8394a44b480377cfca995b
   - enabled: 1
-    path: Assets/Entrega 02/PostProcessing/Vignette/Vignette.unity
+    path: Assets/Grupo_06/PostProcessing/Vignette/Vignette.unity
     guid: 59cb1f3e70ae0b84786199e6825d907f
   - enabled: 1
-    path: Assets/Entrega 02/PostProcessing/FilmNoise/FilmNoise.unity
+    path: Assets/Grupo_06/PostProcessing/FilmNoise/FilmNoise.unity
     guid: 483bbf8bcbfbf0d4fb97be7b39a97b60
   - enabled: 1
-    path: Assets/Entrega 02/PostProcessing/Lens Flares/Lens Flares.unity
+    path: Assets/Grupo_06/PostProcessing/Lens Flares/Lens Flares.unity
     guid: e8cd3b391fcac9d49a3b67d3ba4bdc0f
   - enabled: 1
-    path: Assets/Entrega 02/PostProcessing/Pixelado/Pixelate.unity
+    path: Assets/Grupo_06/PostProcessing/Pixelado/Pixelate.unity
     guid: 8c743a89c429a76409a3cc083fc1438d
   - enabled: 1
-    path: Assets/Entrega 02/UI/Actividad 1/Actividad 1.unity
+    path: Assets/Grupo_06/UI/Actividad 1/Actividad 1.unity
     guid: 8eaca98b57672a643850eea3602e7a0b
   - enabled: 1
-    path: Assets/Entrega 02/UI/Actividad 2/Actividad 2.unity
+    path: Assets/Grupo_06/UI/Actividad 2/Actividad 2.unity
     guid: 1da531329593b1043820ee0c376effb1
   - enabled: 1
-    path: Assets/Entrega 02/UI/Actividad 3/Actividad 3.unity
+    path: Assets/Grupo_06/UI/Actividad 3/Actividad 3.unity
     guid: 62d93b304632c354b8869cd40a95a3ce
   - enabled: 1
-    path: Assets/Entrega 02/UI/Actividad 4/Actividad 4.unity
+    path: Assets/Grupo_06/UI/Actividad 4/Actividad 4.unity
     guid: a6066fe6b12b1c74abac6df0a689f973
   - enabled: 1
-    path: Assets/Entrega 02/UI/Actividad 5/Actividad 5.unity
+    path: Assets/Grupo_06/UI/Actividad 5/Actividad 5.unity
     guid: f31fbe294a979ec448f31993fa7e9b82
   - enabled: 1
-    path: Assets/Entrega 02/Stencil/Stencil.unity
+    path: Assets/Grupo_06/Stencil/Stencil.unity
     guid: a3bf67e9cec2d6d4e897a48113cba7d4
   - enabled: 1
-    path: Assets/Entrega 02/Projector/Projector.unity
+    path: Assets/Grupo_06/Projector/Projector.unity
     guid: ab9d0fa9456276647bac5aa215bcd96d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
