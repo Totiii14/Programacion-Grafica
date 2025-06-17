@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5bcb659354f43094985d3459d602f0fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - waveMaterial: {fileID: 2100000, guid: 8c3429452a876d54a84506ab4ca4ef3d, type: 2}
+  - rayOrigin: {fileID: 8689702587062960742, guid: 35011589f8eb9fe47b900f55441e7ba6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
