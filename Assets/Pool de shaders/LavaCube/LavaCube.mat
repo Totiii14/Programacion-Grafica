@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VignetteNoise
-  m_Shader: {fileID: 4800000, guid: f435a46243787f94f903fa683bc21aec, type: 3}
+  m_Name: LavaCube
+  m_Shader: {fileID: 4800000, guid: 97d83c888b5ca8d4e817b6485b313262, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,16 +23,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: ca5901ed1cde3794384c0c2895620b24, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 12c89afe141ffb44db0961b50bfb0d10, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NoiseTex1:
-        m_Texture: {fileID: 2800000, guid: 12c89afe141ffb44db0961b50bfb0d10, type: 3}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 28788f2dcdc613e4f88ba773b87c3bb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -41,20 +37,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Edge1Min: 0.3
-    - _Edge2Max: 0.7
-    - _Limit1: 1.41
-    - _Limit2: 1.69
-    - _NoiseScale: 1
-    - _NoiseScale1: 1
-    - _NoiseScale2: 9.43
-    - _Speed: 3.29
-    - _Speed1: 0
-    - _SpeedNoise: 2.84
-    - _SpeedVignette: 1.5
-    - _TimeF: 6.39
-    - _VignetteControl: 0.6
+    - _Float0: 0.99
+    - _Speed: 0.54
+    - __dirty: 0
     m_Colors:
-    - _Vector0: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Vector0: {r: 0, g: 1, b: 0, a: 0}
+    - _Vector1: {r: 0.6, g: 0.57, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
