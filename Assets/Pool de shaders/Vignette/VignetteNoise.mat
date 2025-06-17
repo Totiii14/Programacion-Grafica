@@ -41,18 +41,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Edge1Min: -0.05
+    - _Edge1Min: 0.3
     - _Edge2Max: 0.7
-    - _Limit1: 0.87
-    - _Limit2: 0.96
+    - _Limit1: 1.41
+    - _Limit2: 1.69
     - _NoiseScale: 1
     - _NoiseScale1: 1
+    - _NoiseScale2: 4.51
     - _Speed: 3.29
     - _Speed1: 0
     - _SpeedNoise: 2.84
-    - _SpeedVignette: 1.67
+    - _SpeedVignette: 1.5
     - _TimeF: 6.39
-    - _VignetteControl: 0.89
+    - _VignetteControl: 0.6
     m_Colors:
     - _Vector0: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
