@@ -6,7 +6,7 @@ Shader "FilmNoise_RT"
 	{
 		_MainTex ( "Screen", 2D ) = "black" {}
 		_NoiseTex("_NoiseTex", 2D) = "white" {}
-		_NoiseScale("NoiseScale", Range( 0 , 1)) = 0.8229017
+		_NoiseScale("NoiseScale", Range( 0 , 2)) = 0.8229017
 		_Speed("Speed", Float) = 0
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 
@@ -117,13 +117,13 @@ Shader "FilmNoise_RT"
 }
 /*ASEBEGIN
 Version=18900
-704;138;813;692;2299.011;857.377;2.748719;True;False
+210;117;931;619;1768.329;251.4422;1.3;True;False
 Node;AmplifyShaderEditor.ScreenPosInputsNode;9;-1581.339,7.003361;Float;False;0;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ComponentMaskNode;10;-1291.203,6.820135;Inherit;False;True;True;False;False;1;0;FLOAT4;0,0,0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;11;-1089.798,5.820646;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.RangedFloatNode;12;-1234.183,127.8062;Inherit;False;Property;_NoiseScale;NoiseScale;1;0;Create;True;0;0;0;False;0;False;0.8229017;0.39;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;15;-1182.515,223.7542;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;20;-1152.215,310.0339;Inherit;False;Property;_Speed;Speed;2;0;Create;True;0;0;0;False;0;False;0;1;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;12;-1234.183,127.8062;Inherit;False;Property;_NoiseScale;NoiseScale;1;0;Create;True;0;0;0;False;0;False;0.8229017;0.39;0;2;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;19;-1005.05,258.9132;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;13;-925.3562,108.5674;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;30;-744.9327,-195.3861;Inherit;False;0;0;_MainTex;Shader;False;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -147,4 +147,4 @@ WireConnection;18;0;6;0
 WireConnection;18;1;8;0
 WireConnection;29;0;18;0
 ASEEND*/
-//CHKSM=E8A661F794E6E9DC59AB030AFC781587D06C384A
+//CHKSM=BB15910C058C391E31F7708D18DA5AFFF1430C51
