@@ -51,6 +51,7 @@ Material:
     - _NoiseScale1: 0.8229017
     - _Speed: 3.4
     - _Speed1: 0
+    - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

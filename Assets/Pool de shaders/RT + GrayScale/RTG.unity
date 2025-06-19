@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 1147056825}
   - component: {fileID: 1147056824}
   - component: {fileID: 1147056823}
-  - component: {fileID: 1147056826}
+  - component: {fileID: 1147056827}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -498,13 +498,13 @@ Transform:
   m_GameObject: {fileID: 1147056822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.48, y: 0, z: -2.891}
+  m_LocalPosition: {x: 0.92, y: 0, z: -2.891}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1147056826
+--- !u!114 &1147056827
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -513,10 +513,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147056822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9de35699fb5494478bb9daa2f4eec76, type: 3}
+  m_Script: {fileID: 11500000, guid: 958d2c7252b5ac545a950179208796a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PostProcessMat: {fileID: 2100000, guid: 93802b4ce04f17540b81069d6e35039d, type: 2}
+  movementSpeed: 10
+  fastSpeedMultiplier: 2
+  slowSpeedMultiplier: 0.5
+  lookSpeed: 2
 --- !u!1 &1449596381
 GameObject:
   m_ObjectHideFlags: 0
