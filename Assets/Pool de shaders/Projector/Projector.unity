@@ -691,8 +691,8 @@ Projector:
   serializedVersion: 2
   m_NearClipPlane: 0.01
   m_FarClipPlane: 7.01
-  m_FieldOfView: 94.5
-  m_AspectRatio: 0.75
+  m_FieldOfView: 106.5
+  m_AspectRatio: 1.12
   m_Orthographic: 0
   m_OrthographicSize: 1
   m_Material: {fileID: 2100000, guid: 52266f2514327bc41a062cf2c79e97d8, type: 2}
@@ -708,7 +708,7 @@ Transform:
   m_GameObject: {fileID: 1645618708}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 7.62, z: -0.11}
+  m_LocalPosition: {x: -0.25, y: 7.62, z: 0.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 1857289831}
   - component: {fileID: 1857289830}
   - component: {fileID: 1857289829}
+  - component: {fileID: 1857289832}
   m_Layer: 0
   m_Name: RenderCamera
   m_TagString: Untagged
@@ -806,6 +807,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1380741072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1857289832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857289828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735ebdf6b53e6444da194bb4c8c1423a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 47864ee886698614e8c467279e39fcca, type: 2}
+  properties: []
 --- !u!1 &1999943176
 GameObject:
   m_ObjectHideFlags: 0
